@@ -2,6 +2,7 @@
 This module provides a simple function to add two integers.
 """
 
+
 def add(a: int, b: int) -> int:
     """
     Adds two integers and returns the result.
@@ -14,5 +15,7 @@ def add(a: int, b: int) -> int:
         int: The sum of the two integers.
     """
     return a + b
+
+
 if __name__ == "__main__":
     print(add(20, 30))
